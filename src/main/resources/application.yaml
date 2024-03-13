@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shareable-bug-repro
+
+graphql:
+  federation:
+    enabled: true
+  packages:
+    - "com.graphql.kotlin.bug.repro.shareablebugrepro.schema"
